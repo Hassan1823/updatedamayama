@@ -1,0 +1,20 @@
+{
+        categoryTitle: '',
+        generationByProduct: [
+            {
+                src: "",
+                name: '',
+                year:'',
+                generation: '',
+            },
+            
+        ],
+        chassisModel: [
+            {
+                title: '',
+                tags:[
+
+                ]
+            },
+        ]
+    },
