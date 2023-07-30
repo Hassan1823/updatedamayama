@@ -36,11 +36,7 @@ const GenuineParts = ({ params }) => {
     acc[firstLetter].push(category);
     return acc;
   }, {});
-  // Call the function
-  // const sortedCategoriesSlug = categoriesSlug.sort();
-
-  // Call the categoriesByLetter function and pass the categoriesSlug and params to it
-  //  const categorizedCategories = categoriesByLetter(categoriesSlug, params);
+  
 
   const categoriesList = Object.entries(categoriesByLetter).map(
     ([letter, categories]) => (
